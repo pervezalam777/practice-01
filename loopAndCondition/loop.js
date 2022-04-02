@@ -28,7 +28,7 @@ while(whileIndex < 10) {
   console.log('while index now ', whileIndex);
 }
 
-let doWhileIndex = 10
+let doWhileIndex = 10;
 do {
   console.log('Do while index', doWhileIndex)
 } while(doWhileIndex < 10)
