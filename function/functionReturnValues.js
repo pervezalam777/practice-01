@@ -38,4 +38,10 @@ const list = [
 ];
 
 let personDetails = stopsAndReturnPersonDetailsWhenConditionMet('pervez', list);
-console.log(personDetails);
+console.log('Pervez -> ', personDetails);
+
+personDetails = stopsAndReturnPersonDetailsWhenConditionMet('raj', list);
+console.log('Raj -> ',personDetails);
+
+personDetails = stopsAndReturnPersonDetailsWhenConditionMet('narender', list);
+console.log('narender ->', personDetails);
