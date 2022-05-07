@@ -22,8 +22,8 @@ var getName = function() {}
 
 ```
 - [x] Function return values
-- [ ] Fat-arrow function - (detailed) (es6, es2015)
-- [ ] closure function (intermediate)
+- [x] Fat-arrow function - (detailed) (es6, es2015)
+- [o] closure function (intermediate)
 - [ ] built-in functions (overview - library)
 - [ ] Scope in functions (overview - ) (fat arrow example)
 - [ ] function as parameter (HOF)
