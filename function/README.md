@@ -20,8 +20,8 @@
 - [x] Fat-arrow function - (detailed) (es6, es2015)
 - [x] Optional parameter of function
 - [x] function proper commenting
-- [o] closure function (intermediate)
-- [ ] function as parameter (HOF)
+- [x] closure function (intermediate)
+- [x] function as parameter (HOF)
 - [ ] Call by value Vs Call by reference
 - [ ] built-in functions (overview - library)
 - [ ] Rules for function parameter type and values
