@@ -22,7 +22,7 @@
 - [x] function proper commenting
 - [x] closure function (intermediate)
 - [x] function as parameter (HOF)
-- [ ] Call by value Vs Call by reference
+- [x] Call by value Vs Call by reference (mutability and immutability)
 - [ ] built-in functions (overview - library)
 - [ ] Rules for function parameter type and values
 - [ ] Ethics for defining/creating function
