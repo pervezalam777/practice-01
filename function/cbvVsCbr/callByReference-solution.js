@@ -12,3 +12,24 @@ const newArr = callByReference(arr); // A-169
 console.log('arr', arr);
 console.log('newArr', newArr);
 console.log('are arr and newArr same', arr === newArr);
+
+/**
+> let obj = [1,2,4,5]
+undefined
+
+> JSON.stringify(obj)
+'[1,2,4,5]'
+
+> JSON.parse('[1,2,3,5]')
+[ 1, 2, 3, 5 ]
+
+> obj = { a: 10, b:20 }
+{ a: 10, b: 20 }
+
+> JSON.stringify(obj)
+'{"a":10,"b":20}'
+
+> JSON.parse('{"a":10,"b":20}')
+{ a: 10, b: 20 }
+
+ */
