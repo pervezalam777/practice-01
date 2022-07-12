@@ -36,4 +36,6 @@
 
 # Ref
 document.querySelectorAll('#header .navigation')
+- [mdn | querySelectorAll](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelectorAll)
+- [mdn | querySelector](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector)
 ​
