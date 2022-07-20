@@ -2,6 +2,7 @@
 export class Component {
   // properties
   name = 'default name';
+  cType = 'default type';
 
   // methods
   render() {
@@ -21,5 +22,14 @@ export class Component {
     // can add validation here
     console.log('value in setter', value)
     this.name = value;
+  }
+
+  get type() {
+    return this.cType;
+  }
+
+  set type(value) {
+    console.log('can add validation', value)
+    this.cType = value;
   }
 }
