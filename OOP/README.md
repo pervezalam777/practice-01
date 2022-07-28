@@ -19,7 +19,7 @@ First class citizen for the object oriented programming.
 # How to install light server
 
 ```console
-> npm install -g light-server
+> npm install -g lite-server
 
-html file location > light-server .
+html file location > lite-server .
 ```
