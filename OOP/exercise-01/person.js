@@ -4,17 +4,18 @@ export class Person {
   name = 'Human';
   cAge = 18;
 
-  // methods
+  // methods or function
   render() {
     console.log('render method called...')
   }
 
-  // getter and setter
+   // methods or function
   getName() {
     console.log('called.. via getter')
     return this.name;
   }
 
+   // methods or function
   setName(value) {
     // can add validation here
     console.log('value in setter', value)
