@@ -7,6 +7,6 @@ import { Person, GENDERS } from "./person.js";
   const seeta = new Person('Seeta', 28, GENDERS.FEMALE);
   seeta.tellMeAboutYourSelf();
 
-  const fakePerson = new Person(20, 'fake', GENDERS.TRANS)
+  const fakePerson = new Person(20, 'fake', 'child')
   fakePerson.tellMeAboutYourSelf();
 })()

@@ -32,8 +32,11 @@ class Person {
 - [-] Static methods
 
 ## Inheritance (Is-a)
-- [ ] what is super?
-- [ ] Parent and child 
+- [x] What is inheritance
+- [x] what is super?
+- [x] Parent and child
+- [ ] Multiple inheritance (`Not available in javascript`)
+- [ ] Multi-level inheritance
 
 ## Encapsulation
 ## polymorphism
