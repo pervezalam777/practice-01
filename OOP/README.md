@@ -30,6 +30,7 @@ class Person {
 - [ ] Use of constants for class properties
 - [ ] Access modifiers
 - [-] Static methods
+- [ ] function chaining
 
 ## Inheritance (Is-a)
 - [x] What is inheritance
@@ -39,9 +40,11 @@ class Person {
 - [ ] Multi-level inheritance
 
 ## Encapsulation
+
 ## polymorphism
 
 ## Composition (has-a)
+
 ## Factory function
 
 ## getter/setter with object {}
@@ -53,3 +56,5 @@ class Person {
 
 html file location > lite-server .
 ```
+
+
