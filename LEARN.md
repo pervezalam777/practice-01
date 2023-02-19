@@ -1,0 +1,55 @@
+# Topics
+- [ ] Function
+  - [ ] Types of function
+  - [ ] parameters/arguments and return from functions
+    - [x] return from function `function\ReturnFunction.js`
+  - [ ] How to break small functions
+  - [ ] **Closure functions 
+  - [ ] Object manipulation (CRUD: create, read, update, delete)
+  - [ ] Array manipulation (CRUD)
+  - [ ] Date API
+  - [ ] Math API
+  - [ ] XHR (xmlHTTPRequest) - for server interaction
+    - [ ] xmlHTTPRequest
+    - [ ] fetch
+    - [ ] lib - axios, jQuery
+  - [ ] Web Storage
+    - [ ] session storage
+    - [ ] local storage
+  - [ ] cookies
+  - [ ] string manipulation
+    - [ ] search (Regular Expression)
+    - [ ] replace
+    - [ ] validation
+
+- [ ] React (preferred Functional Programming)
+  - [ ] Functional component
+  - [ ] UI components
+  - [ ] Container components
+  - [ ] controlled and uncontrolled
+  - [ ] hook
+    - [ ] Native hooks
+    - [ ] Custom hooks
+  - [ ] Routing
+  - [ ] Context
+  - [ ] States
+    - [ ] local states (component level states)
+    - [ ] global states (application level states)
+      - [ ] Redux, mobX (OOP)
+  - [ ] Promise API, (async and await)
+  - [ ] memoization
+    - useCallback - function
+    - useMemo - hooks, function
+    - React.memo() - component
+
+  - [ ] React with class
+    - [ ] initialization
+    - [ ] update
+    - [ ] destroy
+    - [ ] life cycle methods
+      - [ ] Constructor
+      - [ ] render
+      - [ ] componentWillMount
+      - [ ] componentDidMount
+      - [ ] shouldComponentUpdate (new-)
+      - [ ] componentWillUnmount

@@ -8,7 +8,9 @@
   var getName = function() {}
 
   // Immediately-invoked function expressions (iife)
-  (function() {})()
+  (function() {
+    //
+  })()
 
   // fat arrow function
   () => {}
