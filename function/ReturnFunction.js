@@ -108,3 +108,5 @@ console.log('When value exists ', isFound, typeof isFound);
 
 isFound = findArrayValue([1,2,3,4,5], 33)
 console.log('When value not exists ', isFound, typeof isFound);
+
+//TODO: react map function with return array of html nodes to make list
