@@ -1,4 +1,4 @@
-import { filterGender } from '../utils';
+import { filterGender, filterGenderWithNativeForLoop } from '../utils';
 
 function GenderListComponent(props) {
   const { genderList, genderType } = props;
@@ -6,12 +6,12 @@ function GenderListComponent(props) {
   function renderListItem(item) {
     return (
       <li key={item.name}>
-        {item.name} : {genderType}
+        {item.name} : {item.gender}
       </li>
     )
   }
 
-  const list = filterGender(genderType, genderList)
+  const list = filterGenderWithNativeForLoop(genderType, genderList)
   return (
     <>
       <h2>{genderType.toUpperCase()}</h2>

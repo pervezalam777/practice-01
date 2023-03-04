@@ -15,4 +15,10 @@ export const genderList = [
     name: 'toti',
     gender: 'trans'
   }
+];
+
+export const genders = [
+  { label: 'Male', value: 'male' },
+  { label: 'Female', value: 'female' },
+  { label: 'Trans', value: 'trans' }
 ]
