@@ -15,7 +15,7 @@ function ApproachTwoComponent() {
   }
   return (
     <div>
-      <h1>Pagination: Approach one</h1>
+      <h1>Pagination: Approach Two</h1>
       <PaginationComponent totalPages={getTotalPageCount(clothsListing, itemsPerPage)} onPageChange={handlePageChange} />
       <ListItemsComponent items={listItems} />
     </div>
