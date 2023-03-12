@@ -3,16 +3,16 @@ function ListItemsComponent(props) {
   const { items } = props;
   console.log('items', items)
   return (
-    <ul>
+    <ul className="list">
       {
         items.map((item) => {
           const {id, brandName, catogory, type, price, size} = item;
           return (
-            <li key={id}>
+            <li key={id} className="list-item">
               <h3>{brandName}</h3>
               <p>{catogory} : <strong>{type}</strong></p>
               <h4>{price}</h4>
-              <div>
+              <div className="item-sizes">
                 {
                   size.map(siz => (
                     <span key={siz + id}>{siz}</span>
