@@ -1,6 +1,7 @@
 // add, remove 
 Array.prototype.pop()
 Array.prototype.push()
+
 Array.prototype.shift()
 Array.prototype.unshift()
 
@@ -9,8 +10,8 @@ Array.prototype.sort()
 Array.prototype.reverse()
 Array.prototype.concat()
 Array.prototype.join()
-Array.prototype.slice()
-Array.prototype.splice()
+Array.prototype.slice() // do not modify original array
+Array.prototype.splice() // modify original array
 
 // loops...
 Array.prototype.forEach()
@@ -18,11 +19,11 @@ Array.prototype.map()
 Array.prototype.reduce()
 
 // condition
-Array.prototype.every()
 Array.prototype.filter()
 Array.prototype.find()
-Array.prototype.some()
-Array.prototype.findIndex()
+Array.prototype.some() //? OR ||
+Array.prototype.every() // AND &&
+Array.prototype.findIndex() //?
 Array.prototype.includes()
-Array.prototype.indexOf()
+Array.prototype.indexOf() //?
 
