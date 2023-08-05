@@ -20,6 +20,26 @@ const data = [
   }
 ];
 
+const output = data.reduce((result, currentObject) => {
+  const {id: userId, name, posts} = currentObject;
+  result.users[userId] = { id: userId, name };
+
+  const updatedResult = posts.reduce((res, curr) => {
+    const { id: postId, text } = curr;
+    res.posts[postId] = { id: postId, text };
+    const ownerPostsIds = res.postOwner[userId] || [];
+    ownerPostsIds.push(postId);
+    res.postOwner[userId] = ownerPostsIds;
+
+    return res;
+  }, result) 
+
+  return updatedResult;
+}, {users:{}, posts:{}, postOwner:{}})
+
+console.log('--------------------------');
+console.log(output);
+
 /**
  * output 
  * {
@@ -39,5 +59,6 @@ const data = [
  *    }
  * }
  * 
- * 
  */
+
+
