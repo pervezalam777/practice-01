@@ -5,13 +5,15 @@ Array.prototype.push()
 Array.prototype.shift()
 Array.prototype.unshift()
 
+Array.prototype.slice() // do not modify original array
+Array.prototype.splice() // modify original array
+
 // join, sort, reverse, split
 Array.prototype.sort()
 Array.prototype.reverse()
 Array.prototype.concat()
 Array.prototype.join()
-Array.prototype.slice() // do not modify original array
-Array.prototype.splice() // modify original array
+
 
 // loops...
 Array.prototype.forEach()
